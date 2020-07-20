@@ -52,8 +52,12 @@ section.luzin>h2 {
 section>p {
     padding: 40px 15px 15px 15px;
 }
-
+.row{
+  
+    width: 100%;
+}
 .row {
+    margin-bottom: 15px;
     width: 100%;
 }
 
