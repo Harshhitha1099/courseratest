@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Main page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content ="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style >
+    *{
+     box-sizing:border-box;
+    }
+    body{
+    	font-family:Arial,Helvetica,sans-serif; 
+    }
+    header{
+    	background-color: #666;
+    	padding: 5px;
+    	text-align: center;
+    	font-size: 20px;
+    	color:white;
+    }
+    nav{
+    	float: left;
+    	width: 30%;
+    	height:300px;
+    	background:#ccc;
+    	padding:20px;
+    }
+    nav ul {
+    	list-style-type: none;
+    	padding:20px;
+    }
+    article {
+    	float:left;
+    	padding:20px;
+    	width: 70%;
+    	background-color: #f1f1f1;
+    	height:300px;
+     }
+     section:after {
+     	content:"";
+     	display:table;
+     	clear:both;
+     }
+     footer{
+     	background-color: white;
+     	padding:50px;
+     	
+     }
+     @media(max-width:600px){
+     	nav,article {
+     		width:100%;
+     		height:auto;
+     	}
+     .fa {
+     	padding 20px;
+     	font-size: 30px;
+     	width: 50px;
+     	text-align: center;
+     	text-decoration: none;
+     	margin: 5px 2px;
+     }
+     .fa:hover{
+     	opacity:0.7;
+     }
+     .fa-facebook{
+     	background: #3B5998;
+     	color:white;
+     }
+     .fa-twitter{
+     	background:#55ACEE;
+     	color:white;
+     }
+     .fa-youtube{
+     	background:#bb0000;
+     	color:white;
+     }
+     .fa-linkedin{
+     	background:#007bb5;
+     	color:white;
+     }
+     .fa-instagrm{
+     	background:#125688;
+     	color:white;
+     }
+     }
+    </style>
+</head>
+<body>
+	<header>
+		<h2>PLASMA DONATION</h2>
+	</header>
+	<section>
+		<nav>
+			<ul>
+				<li><a href="#">London</a></li>
+				<li><a href="#">paris</a></li>
+				<li><a href="#">tokya</a></li>
+			</ul>
+		</nav>
+		<article>
+			<h1> london</h1>
+			<p> hi this is paragraph</p>
+		</article>
+	</section>
+	<footer>
+		<a href="#" class="fa fa-instagrm"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+		<a href="#" class="fa fa-youtube"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-facebook"></a>
+	</footer>
+
+</body>
+</html>
